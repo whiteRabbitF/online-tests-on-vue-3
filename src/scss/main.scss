@@ -1,0 +1,164 @@
+
+
+//app.vue
+.container {
+  max-width: 2200px;
+  margin: 0 auto;
+}
+
+/*CARD VUE*/
+html{
+  background-color: #1e1e1e;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-cards {
+  grid-template-columns: repeat(4, 1fr);
+  width: 500px;
+  overflow: hidden;
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 35px;
+  margin-right: 30px;
+  cursor: pointer;
+  color: azure;
+  background-color: #2d3c45;
+  }
+  
+.card img {
+  width: 500px;
+  height: auto;
+  margin: 0;
+  }
+  
+.card-text {
+  padding: 2px 15px;
+  font-size: 26pt;
+  }
+
+.num-of-questions{
+  font-size: 20pt;
+  }
+  
+/*QUESTION VUE*/
+
+  .question-container {
+    margin-top: 20px;
+  }
+  
+  .question {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 40pt;
+  }
+  
+  .option {
+    display: flex;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
+  .option-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30pt;
+    background-color: #236266;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+
+  .option:hover{
+    box-shadow: 10px 5px 5px 5px rgba(174, 177, 175, 0.753);
+    background-color: #2362668a;
+    color: #fff;
+  }
+
+  .variants{
+    font-size: 30pt;
+    font-weight: 800;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 40px;
+  }
+  
+
+  .results{
+    font-size: 26pt;
+    color: #fff;
+  }
+
+
+  /*QUIZHEADER VUE*/
+
+  h3{
+    color: #fff;
+    font-size: 36pt;
+  }
+  
+  .bar {
+    width: 300px;
+    height: 50px;
+    border: 3px solid #fff;
+  }
+  
+  .completion {
+    width: 0%;
+    height: 100%;
+    background-color: #236266;
+  }
+
+    /*RESULT VUE*/
+
+    h1 {
+      font-size: 80px;
+    }
+    
+    p {
+      font-size: 25px;
+    }
+    
+    .results {
+      text-align: center;
+      padding: 100px;
+      color: #fff;
+      font-size: 26pt;
+    }
+
+    .results p{
+      font-size: 40pt;
+      font-weight: 800;
+    }
+
+    /*QUIZZES VIEW VUE*/
+
+    // header {
+    //   margin-bottom: 10px;
+    //   margin-top: 30px;
+    //   display: flex;
+    //   align-items: center;
+    // }
+    
+    // header h1 {
+    //   font-weight: bold;
+    //   margin-right: 30px;
+    // }
+    
+    // header input {
+    //   border: none;
+    //   background-color: rgba(128, 128, 128, 0.1);
+    //   padding: 10px;
+    //   border-radius: 5px;
+    // }
+    
+    // .options-container {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    //   margin-top: 40px;
+    // }

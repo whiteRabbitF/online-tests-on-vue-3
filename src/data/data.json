@@ -1,0 +1,2018 @@
+[
+    {
+        "id": 1,
+        "img": "https://play-lh.googleusercontent.com/qxWZoVTpgGDen5LBdrvqWHPAW0tS6FBq5qyFkHMLEbBAdIQj33s9NhcqWpKIVnJ35IHf",
+        "name": "Python",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Имеется кортеж вида T = (4, 2, 3). Какая из операций приведёт к тому, что имя T будет ссылаться на кортеж (1, 2, 3)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "T[0] = 1",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "T = (1,) + T[1:]",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "T = (1) + T[1:]",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "T.startswith(1)",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Для чего в Python используется встроенная функция enumerate()?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Для определения количества элементов последовательности.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Для одновременного итерирования по самим элементам и их индексам",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Для сортировки элементов по значениям id.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Необходимо собрать и вывести все уникальные слова из строки рекламного текста. Какой из перечисленных типов данных Python подходит лучше всего?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "кортеж (tuple)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "список (list)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "множество (set)",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "словарь (dict)",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Какой результат выведет следующий код? def f(a, *pargs, **kargs): print(a, pargs, kargs) f(1, 2, 3, x=4, y=5)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "1, 2, 3, {'x': 4, 'y': 5}",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "1 (2, 3) {'x': 4, 'y': 5}",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "1, 2, 3, 'x=4', 'y=5'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "1, 2, 3, 4, 5",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Как вывести список методов и атрибутов объекта x?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "help(x)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "info(x)",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "?x",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "dir(x)",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как можно более кратко представить следующую запись? if X: A = Y else: A = Z",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "A = Y if Z else Y",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "A = Y if X else Z",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "A = X if Z else Y",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "A = X if Y else Z",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какая из перечисленных инструкций выполнится быстрее всего, если n = 10**6?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "a = list(i for i in range(n))",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "a = [i for i in range(n)]",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "a = (i for i in range(n))",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "a = {i for i in range(n)}",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": " С помощью Python нужно записать данные в файл, но только в том случае, если файла ещё нет. Какой режим указать в инструкции open()?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "'x'",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "'w'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "'r'",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Для чего в пакетах модулей python в файле __init__.py служит список __all__?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Для конструкторов классов, как и всё, что связано с __init__",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Список определяет, что экспортировать, когда происходит импорт с помощью from *",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Для перечисления переменных, которые будут скрыты для импортирования.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "При объявлении класса с помощью оператора class что пишется в круглых скобках после имени класса?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Имена аргументов, принимаемых методом __init__.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Имена принимаемых классом аргументов.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Имена суперклассов, если класс наследуется от одного или нескольких классов.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": "Имена классов, порождаемых данным классом.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "text": " Какую роль в описании метода класса выполняет декоратор @property?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Декорированный метод становится статическим, экземпляр не передаётся.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Декорированный метод становится методом класса: метод получает класс, а не экземпляр.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Значение, возвращаемое декорированным методом, вычисляется при извлечении. Можно обратиться к методу экземпляра, как к атрибуту.",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+    {
+        "id": 2,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png",
+        "name": "JavaScript",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое количество сообщений будет выведено в консоль? for(var i = 10; i < 35; i += 5) {console.log(i);}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "такой цикл работать не будет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "25",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "В чем отличие между локальной и глобальной переменной?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "локальные видны повсюду, глобальные только в функциях",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": " глобальные можно переопределять, локальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "локальные можно переопределять, глобальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": " глобальные видны повсюду, локальные только в функциях",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какая переменная записана неверно?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " var num = 'STRING' ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "var isDone = 0;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "var b = false;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "var number = 12,5;",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "В чем разница между confirm и prompt?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "ничем не отличаются",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "prompt вызывает диалоговое окно с полем для ввода, confirm - окно с подтверждением",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "confirm вызывает диалоговое окно с полем для ввода, prompt - окно с подтверждением",
+                        "isCorrect": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "text": "Что будет на экране? alert(str); var str = 'Hello' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Hello",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "будет ошибка",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как объявить функцию в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "function:MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "function MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "function = New MyFunction()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какое из этих ключевых слов ООП не используется в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "new",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "instanceOf",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "ни одна из перечисленных не используется",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Расшифруйте аббревиатуру DOM.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Document Object Model",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Digital Optical Modulation",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Domestic Object Mode",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Чем отличается const от let?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "const - не является частью JavaScript",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "переменные, объявленные через const, находятся в глобальной видимости",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объявление const задаёт константу, то есть значение, которое нельзя менять",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+
+
+
+
+    
+    {
+        "id": 3,
+        "img": "https://static.vecteezy.com/system/resources/previews/022/424/576/original/java-logo-editorial-free-vector.jpg",
+        "name": "Java",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какой метод запускает программу на Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "любой, его можно задавать в настройках проекта",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "метод main",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "запуск программы происходит через компиляцию проекта, основного метода нет",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Для чего можно использовать Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "для разработки сайтов",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "для создания программ для ПК",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "для создания игр",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "для разработки приложений",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 5,
+                        "label": "5",
+                        "text": "для всего перечисленного",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Как правильно объявить массив?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "int a = new int[] {1, 2, 3, 4, 5};",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "int[] a = new int[] {1, 2, 3, 4, 5};",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "int[] a = new int {1, 2, 3, 4, 5};",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "int a[] = 1, 2, 3, 4, 5;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "int[] a = int[] {1, 2, 3, 4, 5};",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Что такое аргумент метода?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "переменная, в которую записывается результат работы метода",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "значение или переменная, передаваемая в метод для участия в его работе",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "значение, указываемое после ключевого слова 'return'",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "любая переменная, участвующая в работе метода",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 5,
+                        "label": "5",
+                        "text": "переменная, объявленная в теле метода",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Тернарный оператор это:",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "&&",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "!",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "^",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": " ? ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Что такое ООП?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " объектно-ориентированное программирование — методология программирования, основанная на представлении программы в виде совокупности объектов, каждый из которых является экземпляром определенного класса, а классы образуют иерархию наследования",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "объектно-ориентированное программирование — так называют любой тип программирования, в котором используются понятия высокого уровня и, в отличие от Assembler, в котором не работают напрямую с ячейками памяти ПК",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объектно-ориентированное программирование — просто красивое понятие. Если вдуматься, оно не несет дополнительной смысловой нагрузки, просто программисты любят аббревиатуры, так области их знаний выглядят сложнее",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": " очень одинокий программист ",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Как объявить класс в коде?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "class MyClass {}",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "new class MyClass {}",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "select * from class MyClass {}",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "MyClass extends class {}",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Чем отличаются static-метод класса от обычного метода класса?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "поведение обычного метода класса можно изменить в классе-наследнике, а поведение static-метода нельзя",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "обычный метод класса можно переопределить, а static-метод нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "обычный метод класса работает от объекта класса, а static-метод от всего класса",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "static-метод класса можно вызывать только внутри класса, а обычный - в любой части кода",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Как вызвать обычный метод класса внутри static-метода?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "никак, static-метод не работает с объектом класса",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "можно, надо перед этим перегрузить обычный метод класса",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "можно, надо перед этим переопределить обычный метод класса",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "можно, ничего дополнительно делать не надо",
+                        "isCorrect": false
+                    }
+                ]
+            }    
+        ]
+    },
+
+    {
+        "id": 4,
+        "img": "https://play-lh.googleusercontent.com/U0Re_PSVXwD_dl2owMJjuERpK8UXLwMQysoMDB0kGOL73-TMBOurSbZLLEBQMxA5Lg",
+        "name": "C#",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Где верно происходит вывод данных в консоль?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "print('Hi');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "сonsole.log('Hi');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Console.WriteLine('Hi');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "Console.write('Hi');",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Где правильно создан массив?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "int arr = {2, 5};",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "int arr[] = {2, 5};",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "int[] arr = new Array [2, 5];",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": "int[] arr = new int [2] {2, 5};",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "В чем отличие между break и continue?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Break используется в Switch case, а continue в циклах",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Нет отличий",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Continue работает только в циклах, break дополнительно в методах",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "Continue пропускает итерацию, break выходит из цикла",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Какая функция корректно сравнивает две подстроки?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "String.Match('h', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "String.Check('hi', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "String.Compare('hi', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "String.Equal('hi', 'hello');",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "Какая функция корректно сравнивает две подстроки?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "String.Match('h', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "String.Check('hi', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "String.Compare('hi', 'hello');",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "String.Equal('hi', 'hello');",
+                        "isCorrect": true
+                    }
+                ]
+            }  
+        ]
+    },
+
+    {
+        "id": 5,
+        "img": "https://image.spreadshirtmedia.com/image-server/v1/compositions/T347A504PA4306PT17X1Y55D1041894572W25000H9499/views/1,width=550,height=550,appearanceId=504,backgroundColor=0D99B2,noPt=true/the-go-programming-language-logo-womens-t-shirt.jpg",
+        "name": "GO lang",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое количество сообщений будет выведено в консоль? for(var i = 10; i < 35; i += 5) {console.log(i);}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "такой цикл работать не будет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "25",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "В чем отличие между локальной и глобальной переменной?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "локальные видны повсюду, глобальные только в функциях",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": " глобальные можно переопределять, локальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "локальные можно переопределять, глобальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": " глобальные видны повсюду, локальные только в функциях",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какая переменная записана неверно?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " var num = 'STRING' ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "var isDone = 0;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "var b = false;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "var number = 12,5;",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "В чем разница между confirm и prompt?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "ничем не отличаются",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "prompt вызывает диалоговое окно с полем для ввода, confirm - окно с подтверждением",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "confirm вызывает диалоговое окно с полем для ввода, prompt - окно с подтверждением",
+                        "isCorrect": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "text": "Что будет на экране? alert(str); var str = 'Hello' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Hello",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "будет ошибка",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как объявить функцию в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "function:MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "function MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "function = New MyFunction()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какое из этих ключевых слов ООП не используется в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "new",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "instanceOf",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "ни одна из перечисленных не используется",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Расшифруйте аббревиатуру DOM.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Document Object Model",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Digital Optical Modulation",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Domestic Object Mode",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Чем отличается const от let?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "const - не является частью JavaScript",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "переменные, объявленные через const, находятся в глобальной видимости",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объявление const задаёт константу, то есть значение, которое нельзя менять",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }, 
+
+
+    {
+        "id": 6,
+        "img": "https://play-lh.googleusercontent.com/P5yBHwKAwbMBf8kfYukYlAmFpIqwVW-X2kUpZjgsdH674k7KHvaYXG6bjqUjXr5i4NI",
+        "name": "Kotlin",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое количество сообщений будет выведено в консоль? for(var i = 10; i < 35; i += 5) {console.log(i);}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "такой цикл работать не будет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "25",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "В чем отличие между локальной и глобальной переменной?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "локальные видны повсюду, глобальные только в функциях",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": " глобальные можно переопределять, локальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "локальные можно переопределять, глобальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": " глобальные видны повсюду, локальные только в функциях",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какая переменная записана неверно?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " var num = 'STRING' ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "var isDone = 0;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "var b = false;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "var number = 12,5;",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "В чем разница между confirm и prompt?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "ничем не отличаются",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "prompt вызывает диалоговое окно с полем для ввода, confirm - окно с подтверждением",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "confirm вызывает диалоговое окно с полем для ввода, prompt - окно с подтверждением",
+                        "isCorrect": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "text": "Что будет на экране? alert(str); var str = 'Hello' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Hello",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "будет ошибка",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как объявить функцию в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "function:MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "function MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "function = New MyFunction()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какое из этих ключевых слов ООП не используется в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "new",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "instanceOf",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "ни одна из перечисленных не используется",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Расшифруйте аббревиатуру DOM.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Document Object Model",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Digital Optical Modulation",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Domestic Object Mode",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Чем отличается const от let?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "const - не является частью JavaScript",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "переменные, объявленные через const, находятся в глобальной видимости",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объявление const задаёт константу, то есть значение, которое нельзя менять",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    {
+        "id": 7,
+        "img": "https://avatars.mds.yandex.net/i?id=2e2966b69af4cd8436b921be3ee863d0_sr-8567399-images-thumbs&n=13",
+        "name": "PHP",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое количество сообщений будет выведено в консоль? for(var i = 10; i < 35; i += 5) {console.log(i);}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "такой цикл работать не будет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "25",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "В чем отличие между локальной и глобальной переменной?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "локальные видны повсюду, глобальные только в функциях",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": " глобальные можно переопределять, локальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "локальные можно переопределять, глобальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": " глобальные видны повсюду, локальные только в функциях",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какая переменная записана неверно?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " var num = 'STRING' ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "var isDone = 0;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "var b = false;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "var number = 12,5;",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "В чем разница между confirm и prompt?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "ничем не отличаются",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "prompt вызывает диалоговое окно с полем для ввода, confirm - окно с подтверждением",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "confirm вызывает диалоговое окно с полем для ввода, prompt - окно с подтверждением",
+                        "isCorrect": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "text": "Что будет на экране? alert(str); var str = 'Hello' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Hello",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "будет ошибка",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как объявить функцию в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "function:MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "function MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "function = New MyFunction()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какое из этих ключевых слов ООП не используется в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "new",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "instanceOf",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "ни одна из перечисленных не используется",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Расшифруйте аббревиатуру DOM.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Document Object Model",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Digital Optical Modulation",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Domestic Object Mode",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Чем отличается const от let?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "const - не является частью JavaScript",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "переменные, объявленные через const, находятся в глобальной видимости",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объявление const задаёт константу, то есть значение, которое нельзя менять",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    {
+        "id": 8,
+        "img": "https://play-lh.googleusercontent.com/mkjnJBZ4n8GtNVW3UiYrv8o7BPadZI0-Z8o6zdDAq7jq8OKPFxrALY_1zqnou0AiaQ",
+        "name": "RUBY",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Какое количество сообщений будет выведено в консоль? for(var i = 10; i < 35; i += 5) {console.log(i);}",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "5",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "такой цикл работать не будет",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "25",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "В чем отличие между локальной и глобальной переменной?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "локальные видны повсюду, глобальные только в функциях",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": " глобальные можно переопределять, локальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "локальные можно переопределять, глобальные нельзя",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "3",
+                        "text": " глобальные видны повсюду, локальные только в функциях",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Какая переменная записана неверно?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": " var num = 'STRING' ",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "var isDone = 0;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "var b = false;",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "4",
+                        "text": "var number = 12,5;",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "В чем разница между confirm и prompt?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "ничем не отличаются",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "prompt вызывает диалоговое окно с полем для ввода, confirm - окно с подтверждением",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "confirm вызывает диалоговое окно с полем для ввода, prompt - окно с подтверждением",
+                        "isCorrect": false
+                    }
+                ]
+            },
+
+            {
+                "id": 5,
+                "text": "Что будет на экране? alert(str); var str = 'Hello' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Hello",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "undefined",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "будет ошибка",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Как объявить функцию в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "function:MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "function MyFunction()",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "function = New MyFunction()",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Какое из этих ключевых слов ООП не используется в JavaScript?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "new",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "this",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "instanceOf",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "ни одна из перечисленных не используется",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "Расшифруйте аббревиатуру DOM.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "Document Object Model",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "Digital Optical Modulation",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "Domestic Object Mode",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Чем отличается const от let?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "1",
+                        "text": "const - не является частью JavaScript",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "2",
+                        "text": "переменные, объявленные через const, находятся в глобальной видимости",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "3",
+                        "text": "объявление const задаёт константу, то есть значение, которое нельзя менять",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    }
+    
+]
