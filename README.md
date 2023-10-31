@@ -1,6 +1,5 @@
-# Quiz app
-
-> A quiz app to test your knowledge on diverse topics. Made with `Vite`, `Vue 3` and `CSS 3`.
+# Quiz app to test your knowledge on the most popular programming languages. 
+# Made with `Vite`, `Vue 3` and `CSS 3`.
 
 ## ⌨️ Project Setup
 
